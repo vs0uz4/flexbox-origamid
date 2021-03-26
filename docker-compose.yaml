@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  web:
+    image: nginx
+    ports:
+        - '${APP_PORT:-8000}:80'
+    volumes:
+        - ./src:/usr/share/nginx/html
+    networks: 
+        - sandbox
+
+networks:
+  sandbox:
+    driver: bridge
