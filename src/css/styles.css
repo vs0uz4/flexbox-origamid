@@ -432,8 +432,48 @@ a {
 }
 
 @media (max-width: 600px) {
+    .introduction {
+        padding: 40px 10px;
+    }
+
+    .introduction br {
+        display: none;
+    }
+
+    .about {
+        padding: 40px 10px;
+    }
+
+    .products {
+        margin: 40px auto;
+    }
+
+    .products h1 {
+        margin: 0 10px 40px 10px;
+    }
+
+    .products-item h2 {
+        padding: 40px 20px;
+    }
+
+    .price {
+        padding: 40px;
+    }
+
+    .quality {
+        margin: 40px auto;
+    }
+
+    .newsletter {
+        padding: 40px calc((100% - 960px) / 2);
+    }
+
     .newsletter-form button {
         font-size: 1.5em;
+    }
+
+    .footer {
+        padding: 50px 0px;
     }
 
     .footer p {
