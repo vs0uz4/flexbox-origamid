@@ -1,4 +1,8 @@
 * text=auto
-*.html linguist-vendored
-*.css linguist-vendored
-*.js linguist-vendored
+*.md linguist-language=Markdown
+*.yaml linguist-language=YAML
+
+/* linguist-detectable=false
+src/css/* linguist-language=CSS
+src/images/* linguist-detectable=false
+src/* linguist-language=HTML
