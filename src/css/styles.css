@@ -60,4 +60,26 @@ a {
     box-sizing: border-box;
 }
 
-/* Styles */
+/* TopInfo */
+.topinfo-bg {
+    background: #122ab2;
+    color: #fff;
+}
+
+.topinfo {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+
+}
+
+.topinfo p, .topinfo a {
+    margin: 0 10px 10px 10px;
+}
+
+.topinfo a {
+    color: #fff;
+}
