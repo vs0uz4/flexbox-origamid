@@ -69,11 +69,10 @@ a {
 .topinfo {
     max-width: 960px;
     margin: 0 auto;
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 10px;
-
 }
 
 .topinfo p, .topinfo a {
@@ -82,4 +81,43 @@ a {
 
 .topinfo a {
     color: #fff;
+}
+
+.menu-bg {
+    background: #2c70ff;
+}
+
+.menu {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: #fff;
+}
+
+.menu-logo a {
+    font-size: 2.25em;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu nav a {
+    font-size: 1.25em;
+    display: block;
+    padding: 10px;
+}
+
+.menu-nav a:hover {
+    color: #122ab2;
 }
